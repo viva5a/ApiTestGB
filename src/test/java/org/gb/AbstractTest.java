@@ -1,4 +1,4 @@
-package ru.teststand.gb;
+package org.gb;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;

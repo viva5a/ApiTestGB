@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c4a3df31-f199-4bd4-b819-a80c976a4a47" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/teststand/gb/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/gb/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/teststand/gb/AuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/gb/AuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/teststand/gb/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/gb/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/teststand/gb/RequestsFromNoAuthorizedUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/gb/RequestsFromNoAuthorizedUsersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ru.teststand.gb in TestGB">
+  <component name="RunManager" selected="JUnit.AuthTest">
     <configuration name="AuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestGB" />
       <option name="PACKAGE_NAME" value="ru.teststand.gb" />
@@ -145,11 +149,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthTest" />
         <item itemvalue="JUnit.ru.teststand.gb in TestGB" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.requestToLookAtOtherPeoplesPostsWithoutSort" />
         <item itemvalue="JUnit.AuthTest.getXAuthToken" />
-        <item itemvalue="JUnit.AuthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691322758604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test">
+      <created>1691341325516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691341325516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +215,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/teststand/gb/MainTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/org/gb/MainTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
